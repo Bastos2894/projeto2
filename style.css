@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+
+}
+
+.header{
+    background-color: #0C70F2;
+    display: flex;
+    align-items: center;
+    height: 103px;
+    width: 100%;
+    font-family: 'inter';
+}
+
+.header a{
+    text-decoration: none;
+    color:#ffffff ;
+}
+
+.header a:first-child{
+    flex-grow: 1;
+}
+
+.header h1{
+    margin-top: 21px;
+    margin-left: 56px;
+    margin-bottom: 21px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.header h2{
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.conteiner {
+background-color: #F2F2F2;
+}
+
+#dados {
+    display: flex;
+}
+#dados h1{
+    padding-top: 124px;
+    margin-left: 20%;
+    font-family: 'inter';
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#dados img{
+    margin-top: 75px;
+    margin-left: 300px;
+    width: 255px;
+    height: 197px;
+}
+
+.form {
+    background-color: #ffffff;
+    width: 859px;
+    height: 980px;
+    margin-top: 127px;
+    margin-left: 30%;
+    border-radius: 30px;
+}
+
+#dados-cliente {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+label{
+    font-family: 'inter';
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#prev-temp {
+margin-left:100px;
+}
+.form input{
+    background-color:#F2F2F2 ;
+    width: 630px;
+    height: 56px;
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 3%;
+}
+
+
+input::placeholder{
+    padding-left:32px ;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.pre-temp{
+    margin-left: 200px;
+}
+
+button{
+    width: 630px;
+    height: 56px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0C70F2;
+    color: #ffffff;
+    font-family: 'inter';
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cep-result {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 28%;
+}
+
+.cep-result h1{
+    padding: 30px;
+    font-family: 'inter';
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.cep-result img{
+    width: 136px;
+    height: 133px;
+}
+
+.tab {
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+.txt {
+    width: 1024px;
+    height: 72px;
+    background-color: #0C70F2;
+    color: #ffffff;
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+    justify-content: space-around;
+}
+
+.txt h2{
+    margin-top:23px ;
+}
+
+.re {
+    width: 1024px;
+    height: 72px;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px 0px 30px 30px ;
+}
+
+.re input {
+    pointer-events: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#bairro {
+    padding-left: 35px;
+}
+
+.titulo{
+    margin-left: 30%;
+    display: flex;
+}
+
+.titulo h1 {
+    margin-top: 213px;
+    font-family: 'inter';
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.titulo img{
+    margin-top: 180px;
+    margin-left: 30px;
+    width: 160px;
+    height: 106px;
+}
+
+.resultado{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 28%;
+    width: 1024px;
+    height: 72px;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-color: #0C70F2;
+    border-radius:30px ;
+    text-align: center;
+}
+
+.resultado h2{
+    margin-left: 253px;
+    padding-top: 23px;
+    font-family: 'inter';  
+    font-size: 20px;
+    font-weight: 800;
+    color: #1f1f1f;
+}
+
+.termos{
+    margin-top: 220px;
+    padding-right: 25px;
+    height: 94px;
+    background-color: #0C70F2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.termos a {
+    margin-top: 32px;
+    font-family: 'inter';
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.termos a:first-child{
+    height: 22px;
+    border-right: 3px solid white;  
+}
