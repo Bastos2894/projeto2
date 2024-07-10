@@ -38,7 +38,8 @@
 }
 
 .conteiner {
-background-color: #F2F2F2;
+    background-color: #F2F2F2;
+    width: 100%;
 }
 
 #dados {
@@ -237,8 +238,8 @@ button{
 }
 
 .termos{
+    width: 100%;
     margin-top: 220px;
-    padding-right: 25px;
     height: 94px;
     background-color: #0C70F2;
     display: flex;
@@ -258,4 +259,118 @@ button{
 .termos a:first-child{
     height: 22px;
     border-right: 3px solid white;  
+}
+
+
+
+@media only screen and (max-width : 1024px) {
+    *{
+        margin-right: 0%;
+        padding-right: 0%;
+    }
+    .header{
+        width: 100%;
+       
+    }
+    
+    .conteiner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #dados{
+        width: 100%;
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+
+    #dados h1{
+        margin-left: 45px;
+        
+    }
+
+    #dados img{
+        margin-left: auto;
+        margin-right: 50px;
+    }
+
+    .form{
+        margin-left: 45px;
+    }
+    
+    .cep-result{
+        width: 100%;
+        margin-left: 45px;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .cep-result h1{
+        padding: 0px;
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+
+    .cep-result img{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .tab {
+        margin-left: 45px;
+        width: 100%;
+    }
+
+    .txt {
+        width: 85%;
+        margin-right: auto;
+        padding: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .re{
+        width:85%;
+        justify-content: space-evenly;
+    }
+
+    .re input{
+        width: 100%;
+        
+    }
+
+    .titulo {
+        margin-left: 10px;
+        display: flex;
+        width: 100%;
+    }
+    .titulo h1{
+        margin-left: 55px;
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .titulo img{
+        margin-top: 70px;
+        margin-left: auto;
+        width: 100%;
+        
+    }
+
+    .resultado{
+        width: 85%;
+        margin-left: 45px;
+    }
+
+    .resultado h2{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .termos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
 }
