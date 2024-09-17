@@ -45,10 +45,31 @@ async function getPrevisao() {
     }
 }
 
+const getPosition = position => {
+    const dados = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude
+    }
+
+    console.log(dados)
+
+    document.getElementById('lat').value = dados.latitude;
+    document.getElementById('log').value = dados.longitude;
+}
+
+const geoError = error =>{
+    console.log(Error)
+}
+
+navigator.geolocation.getCurrentPosition(getPosition, geoError)
+
+
+
 
 function btn() {
     getAddresByCep();
     getPrevisao();
+    
 }
 
 
